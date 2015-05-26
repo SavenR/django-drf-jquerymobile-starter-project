@@ -5,50 +5,29 @@
     <title></title>
 
     <!-- styles -->
-    <!-- Bootstrap -->
-
-<!--         <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> -->
-
-        <!-- Reset -->
-<!--     <link type="text/css" rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">  -->
-
-    <!-- Project -->
-    <link type="text/css" rel="stylesheet" href="">
-
-    <!-- PageSpec -->
-    <link type="text/css" rel="stylesheet" href="">
+    <!-- jQ Mobile -->
+<link rel="stylesheet" href="{% static 'jsframework/css/jquery.mobile-1.4.5.min.css' %}" />
 
 
-
-    <!-- jQuery -->
-    <script type="text/javascript" rel="javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 
 
     <!-- Metas -->
     <meta charSet="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
-    <header>
 
-    </header>
-    {% block content %}
+{% include "page1.html" %}
+{% include "page2.html" %}
+{% include "page3.html" %}
+{% include "page4.html" %}
+{% include "page5.html" %}
+{% include "page6.html" %}
+{% include "page7.html" %}
 
-    {% endblock content %}
-
-    <footer>
-
-    </footer>
-    <!-- scripts -->
-    <!-- Bootstrap -->
-    <script type="text/javascript" rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Framework -->
-    <script type="text/javascript" rel="javascript" src=""></script>
-    <!-- Project -->
-    <script type="text/javascript" rel="javascript" src=""></script>
-    <!-- Page -->
-    <script type="text/javascript" rel="javascript" src=""></script>
+<script src="{% static 'jsframework/js/jquery-1.11.1.min.js' %}"></script>
+<script src="{% static 'jsframework/js/jquery.mobile-1.4.5.min.js' %}"></script>
 </body>
 </html>
 
